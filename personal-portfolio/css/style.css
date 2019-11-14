@@ -265,7 +265,6 @@ figure {
         margin-bottom: 10px; }
         #colorlib-hero .flexslider .flex-control-nav li a {
           background: rgba(0, 0, 0, 0.5);
-          -webkit-box-shadow: none;
           box-shadow: none;
           width: 12px;
           height: 12px;
@@ -735,14 +734,12 @@ body.offcanvas {
 
 .progress {
   height: 6px;
-  -webkit-box-shadow: none;
   box-shadow: none;
   background: #f2f3f7;
   overflow: visible; }
 
 .progress-bar {
   background: #2c98f0;
-  -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 12px;
   line-height: 1.2;
@@ -977,11 +974,7 @@ body.offcanvas {
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-      transition: opacity 0.3s, -webkit-transform 0.3s;
-      -o-transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
       margin-bottom: 15px; }
@@ -992,11 +985,7 @@ body.offcanvas {
       color: rgba(255, 255, 255, 0.7);
       font-size: 13px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-      transition: opacity 0.3s, -webkit-transform 0.3s;
-      -o-transition: transform 0.3s, opacity 0.3s;
       transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
@@ -1180,7 +1169,6 @@ body.offcanvas {
   .btn.btn-lg {
     padding: 18px 36px !important; }
   .btn:hover, .btn:active, .btn:focus {
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     outline: none !important; }
 
@@ -1267,14 +1255,12 @@ body.offcanvas {
   -o-transition: 0.3s;
   transition: 0.3s; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
-    -webkit-box-shadow: none;
     box-shadow: none; }
 
 .form-control {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-box-shadow: none;
   box-shadow: none;
   background: transparent;
   border: transparent;
@@ -1291,7 +1277,6 @@ body.offcanvas {
   border-radius: 0; }
   .form-control:active, .form-control:focus {
     outline: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
     border-color: transparent;
     background: #f0f0f0; }
@@ -1322,8 +1307,6 @@ body.offcanvas {
     text-transform: uppercase;
     text-indent: -55px;
     background: #000;
-    -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
       content: '';
@@ -1339,8 +1322,6 @@ body.offcanvas {
     position: relative;
     color: #000;
     background: #000;
-    -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
       background: #000;
@@ -1427,3 +1408,19 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.facebook {
+  color: #4267B2;
+  font-size: 16px; }
+
+.twitter {
+  color: #1DA1F2;
+  font-size: 16px; }
+
+.instagram {
+  color: #C13584;
+  font-size: 16px; }
+
+.linkedin {
+  color: #006192;
+  font-size: 16px; }
