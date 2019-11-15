@@ -459,13 +459,11 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   padding: 0;
 }
 
-.colorlib-experience,
-.colorlib-skills,
-.colorlib-education,
-.colorlib-blog,
-.colorlib-work,
 .colorlib-about,
-.colorlib-services,
+.colorlib-skills,
+.colorlib-projects,
+.colorlib-education,
+.colorlib-experience,
 .colorlib-contact {
   padding-top: 4em;
   padding-bottom: 9em;
@@ -474,13 +472,11 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   display: block;
 }
 @media screen and (max-width: 768px) {
-  .colorlib-experience,
+  .colorlib-about,
 .colorlib-skills,
+.colorlib-projects,
 .colorlib-education,
-.colorlib-blog,
-.colorlib-work,
-.colorlib-about,
-.colorlib-services,
+.colorlib-experience,
 .colorlib-contact {
     padding-top: 5em;
     padding-bottom: 8em;
@@ -1739,22 +1735,17 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .github {
   color: #333;
-  font-size: 16px;
-}
-
-.message {
-  color: #1DA1F2;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .instagram {
   color: #C13584;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .linkedin {
   color: #006192;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */
