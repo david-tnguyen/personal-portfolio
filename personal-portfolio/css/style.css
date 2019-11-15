@@ -1409,11 +1409,11 @@ body.offcanvas {
 .js .animate-box {
   opacity: 0; }
 
-.facebook {
-  color: #4267B2;
+.github {
+  color: #333;
   font-size: 16px; }
 
-.twitter {
+.message {
   color: #1DA1F2;
   font-size: 16px; }
 
