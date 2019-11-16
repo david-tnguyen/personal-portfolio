@@ -182,7 +182,6 @@
 	var navigationSection = function() {
 
 		var $section = $('section[data-section]');
-
 		$section.waypoint(function(direction) {
 
 		  	if (direction === 'down') {
@@ -295,10 +294,8 @@
 		burgerMenu();
 
 		clickMenu();
-		navActive();
+		// navActive();
 		navigationSection();
-		// windowScroll();
-
 
 		mobileMenuOutsideClick();
 		sliderMain();

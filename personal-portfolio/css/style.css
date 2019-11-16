@@ -92,6 +92,7 @@ figure figcaption {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
+  height: 100%;
   width: 300px;
   position: fixed;
   overflow-y: scroll;
@@ -463,8 +464,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .colorlib-skills,
 .colorlib-projects,
 .colorlib-education,
-.colorlib-experience,
-.colorlib-contact {
+.colorlib-experience {
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
@@ -476,8 +476,22 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .colorlib-skills,
 .colorlib-projects,
 .colorlib-education,
-.colorlib-experience,
+.colorlib-experience {
+    padding-top: 5em;
+    padding-bottom: 8em;
+  }
+}
+
 .colorlib-contact {
+  padding-top: 4em;
+  padding-bottom: 9em;
+  clear: both;
+  width: 100%;
+  display: block;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 768px) {
+  .colorlib-contact {
     padding-top: 5em;
     padding-bottom: 8em;
   }
