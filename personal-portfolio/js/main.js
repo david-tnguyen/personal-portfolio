@@ -2,8 +2,6 @@
 
 	'use strict';
 
-
-
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
@@ -285,6 +283,23 @@
 		})
 	};
 
+  //
+  emailjs.init('user_cfDcVFOJJFn75g1CPLDD8');
+
+  var emailForm = function() {
+		document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      // generate the contact number value
+      // this.contact_number.value = Math.random() * 100000 | 0;
+      emailjs.sendForm('gmail', 'template_ypNPp8iA', this)
+        .then(function(){
+          alert("Sent!");
+        }, function(err) {
+          alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+        });
+    });
+	};
+
 	// Document on load.
 	$(function(){
 		fullHeight();
@@ -300,7 +315,8 @@
 		mobileMenuOutsideClick();
 		sliderMain();
 		stickyFunction();
-		owlCrouselFeatureSlide();
+    owlCrouselFeatureSlide();
+    emailForm();
 	});
 
 
