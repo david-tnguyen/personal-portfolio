@@ -292,7 +292,10 @@
       // generate the contact number value
       // this.contact_number.value = Math.random() * 100000 | 0;
       emailjs.sendForm('gmail', 'template_ypNPp8iA', this)
-        .then(function(){
+      .then(function(){
+          $('#contact-form').each(function(){
+            this.reset();
+          });
           alert("Sent!");
         }, function(err) {
           alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
