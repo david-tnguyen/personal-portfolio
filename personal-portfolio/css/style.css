@@ -464,7 +464,8 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .colorlib-skills,
 .colorlib-projects,
 .colorlib-education,
-.colorlib-experience {
+.colorlib-experience,
+.colorlib-contact {
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
@@ -476,22 +477,8 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .colorlib-skills,
 .colorlib-projects,
 .colorlib-education,
-.colorlib-experience {
-    padding-top: 5em;
-    padding-bottom: 8em;
-  }
-}
-
+.colorlib-experience,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
-  clear: both;
-  width: 100%;
-  display: block;
-  margin-bottom: 25px;
-}
-@media screen and (max-width: 768px) {
-  .colorlib-contact {
     padding-top: 5em;
     padding-bottom: 8em;
   }

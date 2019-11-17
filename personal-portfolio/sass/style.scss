@@ -523,25 +523,13 @@ body {
 .colorlib-skills,
 .colorlib-projects,
 .colorlib-education,
-.colorlib-experience{
+.colorlib-experience,
+.colorlib-contact {
 	padding-top: 4em;
 	padding-bottom: 9em;
 	clear: both;
 	width: 100%;
 	display: block;
-	@media screen and(max-width: $screen-sm){
-		padding-top: 5em;
-		padding-bottom: 8em;
-	}
-}
-
-.colorlib-contact{
-	padding-top: 4em;
-	padding-bottom: 9em;
-	clear: both;
-	width: 100%;
-  display: block;
-  margin-bottom: 25px;
 	@media screen and(max-width: $screen-sm){
 		padding-top: 5em;
 		padding-bottom: 8em;
