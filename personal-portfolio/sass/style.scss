@@ -523,8 +523,7 @@ body {
 .colorlib-skills,
 .colorlib-projects,
 .colorlib-education,
-.colorlib-experience,
-.colorlib-contact {
+.colorlib-experience {
 	padding-top: 4em;
 	padding-bottom: 9em;
 	clear: both;
@@ -532,10 +531,21 @@ body {
 	display: block;
 	@media screen and(max-width: $screen-sm){
 		padding-top: 5em;
-		padding-bottom: 8em;
+		padding-bottom: 9em;
 	}
 }
 
+.colorlib-contact {
+	padding-top: 5em;
+	padding-bottom: 10em;
+	clear: both;
+	width: 100%;
+	display: block;
+	@media screen and(max-width: $screen-sm){
+		padding-top: 5em;
+		padding-bottom: 10em;
+	}
+}
 
 //COVER BG
 .author-img{
