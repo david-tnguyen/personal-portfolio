@@ -464,7 +464,8 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .colorlib-skills,
 .colorlib-projects,
 .colorlib-education,
-.colorlib-experience {
+.colorlib-experience,
+.colorlib-contact {
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
@@ -476,23 +477,10 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .colorlib-skills,
 .colorlib-projects,
 .colorlib-education,
-.colorlib-experience {
+.colorlib-experience,
+.colorlib-contact {
     padding-top: 5em;
     padding-bottom: 9em;
-  }
-}
-
-.colorlib-contact {
-  padding-top: 5em;
-  padding-bottom: 10em;
-  clear: both;
-  width: 100%;
-  display: block;
-}
-@media screen and (max-width: 768px) {
-  .colorlib-contact {
-    padding-top: 5em;
-    padding-bottom: 10em;
   }
 }
 
@@ -1064,6 +1052,10 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
     font-size: 28px;
   }
+}
+
+video {
+  object-fit: fill;
 }
 
 .blog-entry {

@@ -186,7 +186,7 @@
 		    	navActive($(this.element).data('section'));
 		  	}
 		}, {
-	  		offset: '150px'
+	  		offset: '400px'
 		});
 
 		$section.waypoint(function(direction) {
@@ -312,7 +312,7 @@
 		burgerMenu();
 
 		clickMenu();
-		// navActive();
+		navActive();
 		navigationSection();
 
 		mobileMenuOutsideClick();
